@@ -1,0 +1,487 @@
+    /* common */
+    
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        background-color: rgb(226, 225, 226);
+        font-family: 'Montserrat', sans-serif;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .landing_page {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        padding: 88px;
+        position: relative;
+    }
+    /* contact-section */
+    
+    .contact-section {
+        position: absolute;
+        right: 80px;
+        top: 24px;
+        text-align: end;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 36px;
+    }
+    
+    .telegram-link,
+    .viber-link,
+    .whatsapp-link {
+        width: 24px;
+        height: 24px;
+        margin-right: 24px;
+    }
+    
+    .phone-icon {
+        width: 24px;
+        height: 24px;
+    }
+    
+    a:any-link {
+        text-decoration: none;
+        color: #3A3030;
+    }
+    /* Experience section */
+    
+    .experience {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+    }
+    
+    .social_links {
+        display: flex;
+        flex-direction: row;
+        width: 96px;
+        height: 48px;
+        color: #1019FA;
+    }
+    
+    .my_photo {
+        margin-bottom: 24px;
+        border-radius: 50%;
+    }
+    
+    .icon {
+        width: 24px;
+        height: 24px;
+        margin: 12px;
+    }
+    
+    .icons_container {
+        width: 156px;
+        height: 48px;
+        margin-bottom: 12px;
+    }
+    
+    .about {
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3A3030;
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+    
+    p {
+        margin-bottom: 8px;
+    }
+    
+    .my_works_link {
+        height: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        text-decoration: underline;
+        margin: 18px 0 56px 0;
+    }
+    /* Info section */
+    
+    .my_info_section {
+        margin: 0 36px;
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    
+    .header_one {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        color: #1019FA;
+        margin: 36px 0 56px 0;
+    }
+    
+    .header_two {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        color: rgba(16, 25, 250, 0.6);
+    }
+    
+    .header_three {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: rgba(16, 25, 250, 0.6);
+    }
+    
+    .about_me {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 40px 0;
+        color: #3A3030;
+    }
+    
+    .my_skills {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .my_skills-text {
+        color: #3A3030;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+    
+    .textskills {
+        color: #3A3030;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+    
+    .bluedots {
+        list-style: disc;
+        color: #1019FA;
+        list-style-position: inside;
+    }
+    /* Section calculation */
+    
+    .calculation {
+        width: max-content;
+    }
+    
+    .calculation_form {
+        align-items: center;
+        justify-content: center;
+        border-radius: 35px;
+        background-color: #a8abf7;
+        padding: 40px;
+    }
+    
+    .project-type-container,
+    .activity-type-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    
+    .form-field-title {
+        color: #3A3030;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+        padding: 0;
+    }
+    
+    .project-type-selection {
+        font-family: 'Montserrat', sans-serif;
+        text-align: start;
+        width: auto;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #1019FA;
+        background-color: #a8abf7;
+        color: #3A3030;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 8px;
+        cursor: pointer;
+    }
+    
+    .project-type-selection:hover {
+        padding: 4px;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 15px;
+        border: 2px solid, #1019FA;
+        background-color: #ffff;
+        color: #a8abf7;
+    }
+    
+    .activity-type-label {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #3A3030;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    
+    .activity-type-checkbox {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+    
+    .sum-type-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sum-title {
+        color: #3A3030;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 20px;
+        margin-bottom: 36px;
+    }
+    
+    .sum-title-currency {
+        color: #1019FA;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 20px;
+        margin-bottom: 36px;
+        margin-right: 16px;
+    }
+    
+    .sum-type-btn {
+        width: 240px;
+        background-color: #1019FA;
+        border: none;
+        outline: none;
+        padding: 12px 24px;
+        border-radius: 25px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(226, 225, 226);
+        cursor: pointer;
+    }
+    
+    .sum-type-btn:hover {
+        width: 240px;
+        background-color: rgba(226, 225, 226);
+        padding: 12px 24px;
+        border-radius: 25px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(16, 25, 250, 0.6);
+        cursor: pointer;
+    }
+    
+    h2 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        color: #1019FA;
+        margin-bottom: 32px;
+    }
+    
+    label {
+        padding-left: 8px;
+    }
+    /* MODAL SECTION  */
+    
+    .modal-bgd {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(16, 25, 250, 0.4);
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .modal-active {
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+    .modal-container {
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 104px 24px;
+        margin: 48px;
+        position: relative;
+    }
+    
+    .modal-close-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        background: none;
+        position: absolute;
+        right: 24px;
+        top: 24px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .modal-img {
+        width: 72px;
+        height: 72px;
+    }
+    
+    .modal-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 36px 0;
+    }
+    
+    .modal-email-input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 48px 0;
+        margin-bottom: 24px;
+    }
+    
+    .text-email {
+        display: none;
+    }
+    
+    .modal-email-input.text-email-error {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+        font-style: normal;
+        color: #fd4747;
+    }
+    
+    h4 {
+        color: #1019FA;
+        margin-top: 36px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .mail-modal {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: #3A3030;
+        padding-bottom: 36px;
+    }
+    
+    .modal-input {
+        border: none;
+        outline: none;
+        background: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3A3030;
+        border-bottom: 2px solid #1019FA;
+        margin-bottom: 4px;
+    }
+    
+    .modal-btn {
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.7);
+        padding: 12px 50px;
+        background: #1019FA;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        cursor: pointer;
+    }
+    
+    .modal-btn:hover {
+        background-color: rgba(226, 225, 226);
+        border-radius: 25px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        color: rgba(16, 25, 250, 0.6);
+        cursor: pointer;
+        padding: 12px 50px;
+    }
+    
+    .second {
+        align-items: center;
+        justify-content: center;
+        padding: 220px 40px 290px 40px;
+    }
