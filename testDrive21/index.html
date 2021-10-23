@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="landing_page">
+        <!-- Contact container -->
+        <section class="contact-section">
+            <a href="tg://user?id=+380505667285" target="_blank" class="telegram-link">
+                <img src="./img/icons/telegram-icon.svg" class="phone-icon" alt="telegram">
+            </a>
+            <a href="viber://add?number=+380505667285" class="viber-link">
+                <img src="./img/icons/viber-icon.svg" class="phone-icon" alt="viber">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=+380505667285" target="_blank" class="whatsapp-link">
+                <img src="./img/icons/phone-icon.svg" class="phone-icon" alt="phone">
+            </a>
+            <a href="tel:+380505667285" class="number-link"> +38 050 566 72 85 </a>
+        </section>
+        <!-- Experience section -->
+        <Section class="experience">
+            <img src="./img/My photo.jpg" alt="It`s me.Hello!" class="my_photo">
+            <div class="social_links">
+                <a href="https://www.behance.net/">
+                    <img class="icon" src="./img/icons/behance.svg" alt="behance">
+                </a>
+                <a href="https://github.com/TimonyaOlya">
+                    <img class="icon" src="./img/icons/github.svg" alt="github">
+                </a>
+            </div>
+
+            <div class="my_works_link">
+                <a style="color: #1019FA;" href="http://gutorka.com/">
+            Примеры работ
+            </a>
+            </div>
+            <div class="icons_container">
+                <a href="https://hyperhost.ua/client/aff.php?aff=1588&page=/ru/domains" target="_blank">
+                    <img class="icon" src="./img/icons/figma.png" alt="figma"></a>
+                <img class="icon" src="./img/icons/photoshop.png" alt="photoshop">
+                <img class="icon" src="./img/icons/creativecloud.svg" alt="creativecloud">
+            </div>
+            <div class="icons_container">
+                <img class="icon" src="./img/icons/java.svg" alt="java">
+                <img class="icon" src="./img/icons/js-icon.svg" alt="js-icon">
+                <img class="icon" src="./img/icons/python.png" alt="python">
+            </div>
+            <div class="icons_container">
+                <img class="icon" src="./img/icons/vscode.svg" alt="vscode">
+                <img class="icon" src="./img/icons/nodejs-icon.svg" alt="nodejs-icon">
+                <img class="icon" src="./img/icons/react-icon.svg" alt="react-icon">
+            </div>
+
+        </Section>
+        <!-- Info section -->
+        <Section class="my_info_section">
+            <span class="header_two">
+                Привет! Я - Ольга
+            </span>
+            <span class="header_one">
+
+                Создаю <br>сайты
+            </span>
+            <span class="header_three">
+                <p>
+                    От дизайна до запуска
+                </p>
+                <p>
+                    Работаю удаленно
+                </p>
+            </span>
+            <div class="about_me">
+                <p>
+                    Вечный студент!<br>Интересуюсь маркетингом, дизайном и IT.
+                </p>
+            </div>
+            <span class="my_skills">
+                <span class="my_skills-text">
+                    Умею:
+                </span>
+            <ul class="bluedots">
+                <li>
+                    <span class="textskills"> Составлять product backlog; </span>
+                </li>
+                <li>
+                    <span class="textskills"> Создавать дизайн-макет; </span>
+                </li>
+                <li>
+                    <span class="textskills"> Front End и Back End разработка;</span>
+                </li>
+                <li>
+                    <span class="textskills"> Проконтролировать качество своего или вашего проекта,<br> как QA.</span>
+                </li>
+            </ul>
+            </span>
+        </Section>
+        <!-- Section count -->
+        <Section class="calculation">
+            <form class="calculation_form" method="POST" name="contact" data-netlify="true" id="calculationForm">
+                <h2>
+                    Прайс-лист
+                </h2>
+                <div class="project-type-container">
+                    <label for="project_type" class="form-field-title">
+                        Тип сайта
+                    </label>
+                    <select name="project_type" id="project_type_id" class="project-type-selection">
+                        <option checked value="Landing Page" id="landing-page"> Landing Page </option>
+                        <option value="Online Store" id="online-store"> Online Store </option>
+                        <option value="Web Application" id="web-application"> Web Application </option>
+                        <option value="Mobile Application" id="mobile-application"> Mobile Application </option>
+                    </select>
+                </div>
+                <div class="activity-type-container" id="project_type">
+                    <p class="form-field-title">
+                        Тип работ
+                    </p>
+                    <div class="activity-type-label">
+                        <input type="checkbox" name="Project Management" id="pm" class="activity-type-checkbox">
+                        <label for="project-managment"> Project Management </label>
+                    </div>
+                    <div class="activity-type-label">
+                        <input checked type="checkbox" name="Design" id="design" class="activity-type-checkbox">
+                        <label for="project-managment"> Design </label>
+                    </div>
+                    <div class="activity-type-label">
+                        <input type="checkbox" name="Development" id="development" class="activity-type-checkbox">
+                        <label for="development"> Development </label>
+                    </div>
+                    <div class="activity-type-label">
+                        <input type="checkbox" name="Quality Assurance" id="qa" class="activity-type-checkbox">
+                        <label for="qa"> Quality Assurance </label>
+                    </div>
+
+                </div>
+                <div class="sum-type-container">
+                    <p class="form-field-title ">
+                        Стоимость
+                    </p>
+                    <p class="sum-title">
+                        <span class="sum-title-currency"> $ </span>
+                        <span id="totalPrice"> 0 </span>
+                    </p>
+                    <input type="hidden" name="Email">
+                    <button class="sum-type-btn">                         
+                         Подробнее
+                    </button>
+                </div>
+            </form>
+        </Section>
+    </div>
+    <!-- MODAL SECTION  -->
+    <div class="modal-bgd" id="modal-email">
+        <div class="modal-container">
+            <button class="modal-close-icon"> <img src="./img/icons/close-icon.svg" alt="close"> </button>
+            <img class="modal-img" src="./img/icons/mail-icon.svg" alt="letter">
+            <h4>
+                Укажите Ваши контакты <br>и я свяжусь с Вами
+            </h4>
+            <form class="modal-form" action="#" id="modal-container-email">
+                <div class="modal-email-input">
+                    <label for="user-email" class="mail-modal">
+                        Email
+                    </label>
+                    <input class="modal-input" type="Email" name="user-email" id="user-email" placeholder="Укажите Ваш email"></input>
+                    <p id="text-email-error" class="text-email"> Проверьте указанный email </p>
+                </div>
+                <button class="modal-btn" type="submit" id="send-btn"> Отправить </button>
+            </form>
+        </div>
+    </div>
+    <div class="modal-bgd" id="modal-success">
+        <div class="modal-container second">
+            <button class="modal-close-icon" type="submit"> <img src="./img/icons/close-icon.svg " alt="close"> </button>
+            <h4>
+                Благодарю за заявку!
+            </h4>
+            <h4>
+                Я свяжусь с Вами <br> в ближайшее время!
+            </h4>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
