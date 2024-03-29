@@ -10,18 +10,20 @@
     body {
         background-color: rgb(226, 225, 226);
         font-family: 'Montserrat', sans-serif;
-        height: 100%;
+        height: auto;
         width: 100%;
         align-items: center;
         justify-content: center;
     }
     
     .landing_page {
-        align-content: center;
-        justify-content: space-between;
         padding: 4em;
     }
   section {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
     padding: 2em;
     /* contact-section */
     
@@ -103,13 +105,13 @@
     }
     
     .my_works_link {
-        height: 24px;
+        height: 2em;
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 2em;
+        line-height: 2em;
         text-decoration: underline;
-        margin: 18px 0 56px 0;
+        margin: 2em 0;
     }
     /* Info section */
     
