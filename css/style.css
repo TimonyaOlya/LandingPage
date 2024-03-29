@@ -1,4 +1,14 @@
     /* common */
+:root {
+    /* container width */
+    --vertical-scroll: 20px; 
+    --mobile: calc(300px + var(--vertical-scroll));
+    --tablet: calc(640px + var(--vertical-scroll)); 
+    --desktop: calc(900px + var(--vertical-scroll));
+    --desktop-lg: calc(1146px + var(--vertical-scroll));
+}
+
+@media only screen (min-device-width:320px) 
     
     html {
         height: 100%;
