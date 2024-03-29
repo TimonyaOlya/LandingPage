@@ -20,8 +20,9 @@
         align-content: center;
         justify-content: space-between;
         padding: 4em;
-
     }
+  section {
+    padding: 2em;
     /* contact-section */
     
     .contact-section {
@@ -113,7 +114,6 @@
     /* Info section */
     
     .my_info_section {
-        margin: 0 36px;
         width: auto;
         height: 100%;
         display: flex;
@@ -124,16 +124,15 @@
     .header_one {
         font-style: normal;
         font-weight: bold;
-        font-size: 48px;
-        line-height: 48px;
+        font-size: 3em;
+        line-height: 3em;
         color: #1019FA;
-        margin: 1.5em 0 3em 0;
     }
     
     .header_two {
         font-style: normal;
-        font-weight: 500;
-        font-size: 3em;
+        font-weight: bold;
+        font-size: 2em;
         line-height: 3em;
         color: rgba(16, 25, 250, 0.6);
     }
@@ -141,8 +140,8 @@
     .header_three {
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 1.5em;
+        line-height: 1.5em;
         color: rgba(16, 25, 250, 0.6);
     }
     
@@ -150,9 +149,8 @@
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        margin: 40px 0;
+        font-size: 1em;
+        line-height: 2em;
         color: #3A3030;
     }
     
@@ -167,18 +165,18 @@
         color: #3A3030;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 18px;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
     }
     
     .textskills {
         color: #3A3030;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 12px;
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
     }
     
     .bluedots {
