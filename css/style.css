@@ -22,28 +22,28 @@
         flex-direction: row;
         align-content: center;
         justify-content: space-between;
-        padding: 88px;
+        padding: 4em;
         position: relative;
     }
     /* contact-section */
     
     .contact-section {
         position: absolute;
-        right: 80px;
+        right: 48px;
         top: 24px;
         text-align: end;
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
-        line-height: 36px;
+        font-size: 1.5em;
+        line-height: 2em;
     }
     
     .telegram-link,
     .viber-link,
     .whatsapp-link {
-        width: 24px;
-        height: 24px;
-        margin-right: 24px;
+        width: 16px;
+        height: 16px;
+        margin-right: 12px;
     }
     
     .phone-icon {
@@ -67,7 +67,7 @@
     .social_links {
         display: flex;
         flex-direction: row;
-        width: 96px;
+        width: 48px;
         height: 48px;
         color: #1019FA;
     }
@@ -130,14 +130,14 @@
         font-size: 48px;
         line-height: 48px;
         color: #1019FA;
-        margin: 36px 0 56px 0;
+        margin: 1.5em 0 3em 0;
     }
     
     .header_two {
         font-style: normal;
         font-weight: 500;
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 3em;
+        line-height: 3em;
         color: rgba(16, 25, 250, 0.6);
     }
     
