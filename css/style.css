@@ -53,7 +53,7 @@
     }
     /* Experience section */
     
-    .experience {
+    section.experience {
       display: grid;
       justify-items: center;
       width: max-content;
