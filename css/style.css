@@ -20,10 +20,6 @@
         padding: 4em;
     }
   section {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items:center;
     padding: 2em;
     /* contact-section */
     
@@ -127,7 +123,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 3em;
-        line-height: 3em;
+        line-height: 1em;
         color: #1019FA;
     }
     
@@ -135,7 +131,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 2em;
-        line-height: 3em;
+        line-height: 1em;
         color: rgba(16, 25, 250, 0.6);
     }
     
@@ -143,7 +139,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 1.5em;
-        line-height: 1.5em;
+        line-height: 1em;
         color: rgba(16, 25, 250, 0.6);
     }
     
@@ -152,7 +148,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 1em;
-        line-height: 2em;
+        line-height: 1em;
         color: #3A3030;
     }
     
@@ -188,8 +184,12 @@
     }
     /* Section calculation */
     
-    .calculation {
-        width: max-content;
+    .calculation {      
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    width: max-content;
     }
     
     .calculation_form {
