@@ -54,10 +54,9 @@
     /* Experience section */
     
     .experience {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: max-content;
+      display: grid;
+      justify-items: center;
+      width: max-content;
     }
     
     .social_links {
@@ -116,14 +115,14 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        text-align: start;
+        text-align: center;
     }
     
     .header_one {
         font-style: normal;
         font-weight: bold;
         font-size: 3em;
-        line-height: 1em;
+        line-height: normal;
         color: #1019FA;
     }
     
@@ -131,7 +130,7 @@
         font-style: normal;
         font-weight: bold;
         font-size: 2em;
-        line-height: 1em;
+        line-height: 1.5em;
         color: rgba(16, 25, 250, 0.6);
     }
     
@@ -139,7 +138,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 1.5em;
-        line-height: 1em;
+        line-height: 1.5em;
         color: rgba(16, 25, 250, 0.6);
     }
     
@@ -184,12 +183,10 @@
     }
     /* Section calculation */
     
-    .calculation {      
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items:center;
-    width: max-content;
+    .calculation {     
+      display: grid;
+      justify-items: center;
+      width: max-content;
     }
     
     .calculation_form {
@@ -197,7 +194,7 @@
         justify-content: center;
         border-radius: 35px;
         background-color: #a8abf7;
-        padding: 40px;
+        padding: 2em;
     }
     
     .project-type-container,
@@ -211,8 +208,8 @@
         color: #3A3030;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 1em;
+        line-height: 1.5em;
         margin-bottom: 16px;
         padding: 0;
     }
@@ -290,7 +287,7 @@
     }
     
     .sum-type-btn {
-        width: 240px;
+        width: 100%;
         background-color: #1019FA;
         border: none;
         outline: none;
