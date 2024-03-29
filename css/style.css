@@ -1,15 +1,13 @@
-    /* common */
-:root {
-    /* container width */
-    --vertical-scroll: 20px; 
-    --mobile: calc(300px + var(--vertical-scroll));
-    --tablet: calc(640px + var(--vertical-scroll)); 
-    --desktop: calc(900px + var(--vertical-scroll));
-    --desktop-lg: calc(1146px + var(--vertical-scroll));
+/* Пример медиа-запроса для маленьких экранов */
+@media only screen and (max-width: 600px) {
+  /* стили для маленьких экранов */
 }
 
-@media only screen (min-device-width:320px) 
-    
+/* Пример медиа-запроса для больших экранов */
+@media only screen and (min-width: 1200px) {
+  /* стили для больших экранов */
+
+/*common*/    
     html {
         height: 100%;
         width: 100%;
@@ -495,3 +493,4 @@
         justify-content: center;
         padding: 220px 40px 290px 40px;
     }
+Ъ
