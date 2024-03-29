@@ -1,27 +1,27 @@
 const value = {
     'Landing Page': {
-        pm: 700,
-        design: 600,
-        development: 1200,
-        qa: 500,
+        pm: 50,
+        design: 100,
+        development: 100,
+        qa: 50,
     },
     'Online Store': {
-        pm: 1200,
-        design: 900,
-        development: 2500,
-        qa: 800,
+        pm: 120,
+        design: 500,
+        development: 1000,
+        qa: 300,
     },
     'Web Application': {
-        pm: 2000,
-        design: 1100,
-        development: 3000,
-        qa: 1000,
+        pm: 200,
+        design: 500,
+        development: 1000,
+        qa: 300,
     },
     'Mobile Application': {
-        pm: 3000,
-        design: 1500,
-        development: 4000,
-        qa: 1300,
+        pm: 300,
+        design: 500,
+        development: 2000,
+        qa: 300,
     }
 };
 
